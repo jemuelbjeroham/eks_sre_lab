@@ -11,3 +11,9 @@ variable "cluster_name" {
 variable "vpc_cidr" {
   default = "10.0.0.0/16"
 }
+
+variable "environment" {
+  description = "The environment for the infrastructure"
+  type        = string
+  default     = "dev"
+}
